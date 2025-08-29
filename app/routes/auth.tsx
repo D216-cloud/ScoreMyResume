@@ -5,7 +5,7 @@ import type { Route } from "./+types/auth";
 
 export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "ScoreMyResume | Authentication" },
+    { title: "ScoreMyResume" },
     { name: "description", content: "Log in to your account" },
   ];
 }

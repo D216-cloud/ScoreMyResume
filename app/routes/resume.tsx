@@ -6,9 +6,9 @@ import Summary from "~/components/feebdack/Summary";
 import { usePuterStore } from "~/lib/puter";
 import type { Route } from "./+types/resume";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "Resumind | Resume Review" },
+    { title: "ScoreMyResume" },
     { name: "description", content: "A detailed overview of your resume" },
   ];
 }
